@@ -1,0 +1,23 @@
+
+Inicia Test
+Página abierta: http://sanbox.undostres.com.mx
+
+Damos click en el campo //input[@suggest='mobile-operator']
+
+Damos click en el campo //b[contains(.,'Telcel')]
+Escribiendo en el campo //input[contains(@onfocus,'mobileFieldFocusHandler(event)')] el texto 8465433546 
+
+Damos click en el campo //input[contains(@suggest,'mobile-operator_amount')]
+
+Damos click en el campo //a[@href='javascript:void(0);'][contains(.,'$10Recarga $10')]
+
+Damos click en el campo //button[contains(@data-qa,'celular-pay')]
+
+Damos click en el campo (//div[contains(@class,'rotatingGlyContainer')])[2]
+Click en el elemento //span[contains(.,'Usar nueva tarjeta')] 
+Escribiendo en el campo //input[contains(@data-qa,'cvv-input')] el texto 111 
+Escribiendo en el campo //input[contains(@class,'form-control email preventChromeAutofill')] el texto test@test.com 
+
+Damos click en el campo (//span[@class='PaymentMethod'][contains(.,'Pagar con Tarjeta')])[2]
+Escribiendo en el campo //input[contains(@id,'usrname')] el texto automatizaciónUDT1@gmail.com 
+Finaliza Test
